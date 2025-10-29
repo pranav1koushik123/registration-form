@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <div style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); width: 300px;">
+        <h2 style="text-align: center; color: #333;">Event Registration</h2>
+
+        <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Full Name:</label>
+        <input type="text" placeholder="Enter your name" 
+               style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+        <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+        <input type="email" placeholder="@gmail.com"
+               style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+        <label for="number" style="display: block; margin-bottom: 5px; font-weight: bold;">Phone Number:</label>
+        <input type="number" placeholder="Enter your Number"
+               style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+        <label for="event" style="display: block; margin-bottom: 5px; font-weight: bold;">Select Event:</label>
+        <select style="width: 100%; padding: 8px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px;">
+            <option value="">-- Choose an event --</option>
+            <option value="workshop">Workshop</option>
+            <option value="seminar">Seminar</option>
+            <option value="conference">Conference</option>
+        </select>
+
+        <button style="width: 100%; background-color: #007bff; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer;">
+            Register
+        </button>
+    </div>
+
+</body>
+</html>
